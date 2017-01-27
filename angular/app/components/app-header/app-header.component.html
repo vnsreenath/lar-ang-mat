@@ -1,0 +1,12 @@
+<md-content>
+    <div layout="row" layout-align="space-between" class="nav-bar" md-whiteframe-glow-z1>
+		<img src="img/logo.png" class="layout-padding" ui-sref="app.home" class="logo" height="48"/>
+		<div layout="row" layout-align="right stretch" ng-if="vm.isLogin=true">
+			<a hide-xs class="header-link md-subhead" ui-sref="app.dashboard">Dashboard</a>
+			<a hide-xs class="header-link md-subhead" ui-sref="app.settings">Settings</a>
+			<a hide-xs class="header-link md-subhead" ui-sref="app.billing">Billing</a>
+			<a hide-xs class="header-link md-subhead" ui-sref="app.reports">Reports</a>
+			<a hide-xs class="header-link md-subhead" ui-sref="app.logout">Logout</a>
+		</div>
+    </div>
+</md-content>
